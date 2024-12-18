@@ -1,37 +1,36 @@
-Atmos Viz: Global Temperature Analysis and Prediction
+# 🌍 Atmos Viz: Global Temperature Analysis and Prediction
+##Overview
+### Atmos Viz is a Python-based project designed to analyze, visualize, and predict global temperature trends across various cities and countries. It leverages historical climate data and advanced data science techniques, combining machine learning models, geospatial mapping, and interactive visualizations to uncover meaningful insights into temperature variations over time.
 
-Project Overview:
-Atmos Viz is a comprehensive project aimed at analyzing, visualizing, and predicting global temperature trends using historical climate data. The project leverages advanced data preprocessing, machine learning models, and geospatial visualization tools to uncover patterns in temperature variations across cities and countries worldwide. By combining statistical analysis with interactive visualizations, Atmos Viz provides meaningful insights into historical trends while forecasting future climate behaviors.
+Project Features
+✅ Data Preprocessing: Efficiently handles large-scale datasets, cleans missing values, and extracts relevant features like Year, Month, and cyclic seasonal trends.
+✅ Geospatial Mapping: Visualizes temperature data geographically using shapefiles and tools like GeoPandas and Plotly.
+✅ Machine Learning Prediction: Forecasts future temperature trends using Linear Regression and Random Forest models.
+✅ Interactive Visualizations: Generates engaging charts, heatmaps, and world maps for better analysis and understanding.
+✅ Performance Evaluation: Measures model accuracy using metrics like MAE, RMSE, and R².
 
-Key Features:
-
-Large-Scale Data Processing: Efficient handling of half-GB-sized datasets with Python libraries like Pandas and NumPy to manage missing values and optimize computations.
-Geospatial Mapping: Integration of GeoPandas and shapefiles for GIS-based temperature mapping, enabling accurate visualization of city-wise and country-level temperature trends.
-Machine Learning Models: Implementation of Linear Regression and Random Forest to predict future temperature trends based on historical data and evaluate model performance using metrics such as MAE, RMSE, and R².
-Interactive Visualizations: Development of dynamic plots using Plotly and Matplotlib for city-specific and global temperature trends, including trendlines, heatmaps, and boxplots.
-Cyclic Features: Addition of cyclic seasonal features for better trend identification, capturing monthly variations in temperature behavior.
-Project Components:
-
-Data Preprocessing:
-
-Parsing and cleaning historical temperature data from CSV files.
-Filling missing values using mean monthly temperature trends for cities.
-Extracting relevant features, including Year, Month, and cyclic features like sin_month and cos_month.
-Predictive Modeling:
-
-Splitting data into training and testing sets.
-Training Linear Regression and Random Forest models to predict temperature trends.
-Evaluating predictions with robust performance metrics: MAE, RMSE, and R².
-Geospatial Visualization:
-
-Plotting world temperature maps using GeoPandas and shapefiles to showcase city-specific temperature variations.
-Creating interactive scatter plots using Plotly for dynamic temperature exploration across regions.
-Interactive Plots:
-
-Generating time-series temperature trend plots for specific cities with trendlines.
-Creating heatmaps of monthly temperature variations and boxplots for continental temperature distributions.
-Technologies Used:
-
+Technologies Used
 Programming Language: Python
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Plotly, GeoPandas, Scikit-learn
-Tools: Shapefiles for GIS mapping, Jupyter Notebooks/VSCode for development
+Libraries:
+Data Handling: Pandas, NumPy
+Visualization: Matplotlib, Seaborn, Plotly
+Geospatial Mapping: GeoPandas
+Machine Learning: Scikit-learn
+GIS Tools: Shapefiles
+Project Workflow
+Data Preprocessing
+
+Load the temperature dataset (sourced from Kaggle, originally from Berkeley Earth).
+Clean and normalize missing temperature values using monthly means.
+Extract cyclic seasonal trends using sine and cosine transformations.
+Model Development
+
+Use Linear Regression and Random Forest for predictive modeling.
+Train models using features like Year, sin_month, and cos_month.
+Evaluate performance using MAE, RMSE, and R² metrics.
+Visualization
+
+Geospatial Maps: Display temperature data using GeoPandas and Plotly.
+Time-Series Trends: Plot temperature trends with trendlines for specific cities.
+Interactive Maps: Visualize data with hover information for cities on the map.
+Heatmaps & Boxplots: Analyze monthly and regional temperature variations.

@@ -57,5 +57,5 @@
 ### For any queries or suggestions, feel free to contact me:
 
 ## Email: siddhantborse27@gmail.com
-##VPortfolio: Siddhant Borse
+## VPortfolio: Siddhant Borse
 ## ⭐ If you like this project, give it a star on GitHub! ⭐

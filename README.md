@@ -40,6 +40,16 @@
    - **Time-Series Trends**: Plot temperature trends with trendlines for specific cities.
    - **Interactive Maps**: Visualize data with **hover information** for cities on the map.
    - **Heatmaps & Boxplots**: Analyze monthly and regional temperature variations.
+   
+## Contributions
+### Contributions are welcome! If you'd like to improve this project, please fork the repository and create a pull request.
+
+## Contact
+### For any queries or suggestions, feel free to contact me:
+
+## Email: siddhantborse27@gmail.com
+## VPortfolio: Siddhant Borse
+## ⭐ If you like this project, star it on GitHub! ⭐
 
 ---
 
@@ -63,15 +73,6 @@ Atmos-Viz/
 │
 └── README.md                      # Project documentation
 
-## Contributions
-### Contributions are welcome! If you'd like to improve this project, please fork the repository and create a pull request.
-
-## Contact
-### For any queries or suggestions, feel free to contact me:
-
-## Email: siddhantborse27@gmail.com
-## VPortfolio: Siddhant Borse
-## ⭐ If you like this project, star it on GitHub! ⭐
 
 
 

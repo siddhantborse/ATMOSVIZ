@@ -1,5 +1,5 @@
 # 🌍 Atmos Viz: Global Temperature Analysis and Prediction
-##Overview
+## Overview
 ### Atmos Viz is a Python-based project designed to analyze, visualize, and predict global temperature trends across various cities and countries. It leverages historical climate data and advanced data science techniques, combining machine learning models, geospatial mapping, and interactive visualizations to uncover meaningful insights into temperature variations over time.
 
 Project Features

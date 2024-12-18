@@ -44,10 +44,10 @@
 
 ## Visualization
 
-#### Geospatial Maps: Display temperature data using GeoPandas and Plotly.
-#### Time-Series Trends: Plot temperature trends with trendlines for specific cities.
-#### Interactive Maps: Visualize data with hover information for cities on the map.
-#### Heatmaps & Boxplots: Analyze monthly and regional temperature variations.
+ Geospatial Maps: Display temperature data using GeoPandas and Plotly.
+ Time-Series Trends: Plot temperature trends with trendlines for specific cities.
+ Interactive Maps: Visualize data with hover information for cities on the map.
+ Heatmaps & Boxplots: Analyze monthly and regional temperature variations.
 
 
 ## Contributions
